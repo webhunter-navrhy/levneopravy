@@ -1,0 +1,8 @@
+site/
+_research/html/
+_research/img_orig/
+_research/ne50.json
+_research/*.png
+_research/media_*.json
+.DS_Store
+__pycache__/

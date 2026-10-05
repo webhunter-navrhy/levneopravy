@@ -1,0 +1,498 @@
+{
+ "gdpr": {
+  "title": "GDPR",
+  "blocks": [
+   {
+    "t": "h",
+    "h": "Zásady ochrany osobních údajů – GDPR"
+   },
+   {
+    "t": "p",
+    "h": "V naší společnosti pod subjektem <strong>Levné opravy – Praha</strong>, se sídlem: <strong>Na Proseku 35/2, Praha 9</strong>, IČ: 872 94 231, klademe velký důraz na <strong>ochranu osobních údajů</strong> našich klientů, partnerů, návštěvníků webu a lidí, se kterými přijdeme v rámci naší činnosti do kontaktu."
+   },
+   {
+    "t": "p",
+    "h": "V tomto dokumentu vás informujeme o tom, jakým způsobem zpracováváme vaše osobní údaje a jaká vám v této souvislosti náleží práva podle nařízení Evropského parlamentu a Rady (EU) 2016/679 (GDPR) a dalších souvisejících právních předpisů."
+   },
+   {
+    "t": "p",
+    "h": "Při zpracování osobních údajů postupujeme v souladu s nařízením <strong>GDPR</strong>, tj. nařízením Evropského parlamentu a Rady (EU) 2016/679 ze dne 27. dubna 2016 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů a o volném pohybu těchto údajů, a dále v souladu s příslušnými právními předpisy České republiky."
+   },
+   {
+    "t": "p",
+    "h": "Ve smyslu uvedených předpisů vystupujeme v roli <strong>správce osobních údajů</strong>."
+   },
+   {
+    "t": "h",
+    "h": "Účely zpracování osobních údajů"
+   },
+   {
+    "t": "p",
+    "h": "Hlavním účelem zpracování vašich osobních údajů je umožnit vám využívat naše služby a produkty nabízené na těchto webových stránkách, reagovat na vaše požadavky a zároveň neustále zlepšovat jejich kvalitu a bezpečnost."
+   },
+   {
+    "t": "p",
+    "h": "Vaše osobní údaje mohou být zpracovávány zejména pro tyto účely:"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "vyřizování požadavků zaslaných prostřednictvím elektronických formulářů",
+     "marketingové účely – zasílání obchodních sdělení, nabídka služeb a produktů",
+     "plnění právních povinností vůči orgánů veřejné moci v souladu s příslušnými předpisy"
+    ]
+   },
+   {
+    "t": "p",
+    "h": "Zpracování osobních údajů probíhá jak manuálně, tak automatizovaně. Automatizované zpracování osobních údajů se může uplatnit například při vyhodnocování poptávek, poskytování personalizovaných informací o našich službách, událostech nebo novinkách, které by pro vás mohly být relevantní."
+   },
+   {
+    "t": "h",
+    "h": "Povinné a dobrovolné poskytnutí údajů"
+   },
+   {
+    "t": "p",
+    "h": "Poskytnutí osobních údajů v případech, kdy je to nezbytné pro uzavření smlouvy nebo vyřízení vaší žádosti, je dobrovolné, avšak nezbytné. Bez těchto údajů vám nemusíme být schopni danou službu poskytnout, případně na vaši žádost odpovědět."
+   },
+   {
+    "t": "p",
+    "h": "Zpracování osobních údajů pro marketingové účely je vždy založeno na vašem souhlasu, který můžete kdykoli odvolat. Odvolání souhlasu nemá vliv na zákonnost zpracování provedeného před jeho odvoláním, ani na ostatní smluvní nebo zákonné vztahy mezi vámi a naší společností."
+   },
+   {
+    "t": "p",
+    "h": "Zpracování Vašich osobních údajů za účelem zasílání obchodních sdělení můžete kdykoliv odmítnout či odvolat a nebude to mít vliv na naše jiné vzájemné vztahy. Stačí nám zaslat e-mail s příslušnou žádostí na emailovou adresu uvedenou v kontaktech webu, případně na adresu, ze které jste od nás obdrželi obchodní sdělení."
+   },
+   {
+    "t": "h",
+    "h": "Rozsah zpracování osobních údajů"
+   },
+   {
+    "t": "p",
+    "h": "Při kontaktu s námi prostřednictvím webových stránek nebo jiných komunikačních kanálů od vás můžeme požadovat některé osobní údaje, které jsou nezbytné pro odpověď na vaši poptávku nebo poskytnutí našich služeb."
+   },
+   {
+    "t": "p",
+    "h": "Těmito údaji mohou být zejména:"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "vaše jméno a příjmení",
+     "obchodní firma (u podnikatelů)",
+     "adresa nebo sídlo společnosti",
+     "adresa realizace či doručení",
+     "identifikační číslo (IČ) a daňové identifikační číslo (DIČ)",
+     "telefonní číslo",
+     "e-mailová adresa"
+    ]
+   },
+   {
+    "t": "p",
+    "h": "Údaje, které nám poskytujete, používáme k tomu, abychom Vás kontaktovali zpět a poskytli Vám informace, o které jste nás požádali. Veškeré osobní údaje jsou zpracovány zákonným a transparentním způsobem a jsou vyžadovány pouze přiměřené, relevantní a nezbytné údaje ve vztahu k účelu zpracování."
+   },
+   {
+    "t": "h",
+    "h": "Kdo má k Vašim osobním údajům přístup"
+   },
+   {
+    "t": "p",
+    "h": "Vaše osobní údaje budeme jako správce zpracovávat My. Vaše osobní údaje můžeme za uvedenými účely předat našim subdodavatelům, aby pro nás provedli jejich zpracování."
+   },
+   {
+    "t": "p",
+    "h": "Vaše osobní údaje zpracováváme jako správce my, tedy společnost či provozovatel uvedený v záhlaví tohoto prohlášení."
+   },
+   {
+    "t": "p",
+    "h": "Pro některé účely můžeme využít důvěryhodné smluvní partnery (tzv. <strong>zpracovatele</strong>), kteří údaje zpracovávají pouze podle našich pokynů a za účelem, který jsme stanovili."
+   },
+   {
+    "t": "p",
+    "h": "<strong>Osobní údaje mohou být předány pouze na základě Vašich poptávek:</strong>"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "obchodním partnerům v oblasti dopravních služeb",
+     "obchodním partnerům v oblasti finančních služeb",
+     "orgánům veřejné správy v případě dotazu o součinnost v rámci oprávněného zájmu"
+    ]
+   },
+   {
+    "t": "p",
+    "h": "Ve všech případech dbáme na to, aby byly údaje předávány pouze v nezbytném rozsahu, bezpečně a v souladu s platnými právními předpisy."
+   },
+   {
+    "t": "h",
+    "h": "Doba zpracování osobních údajů"
+   },
+   {
+    "t": "p",
+    "h": "Vaše osobní údaje budeme zpracovávat po dobu, po kterou Vám budeme poskytovat naše služby či plnit vzájemnou smlouvu, nebo po dobu nezbytnou k plnění archivačních povinností podle platných právních předpisů, jako jsou například zákon o účetnictví, zákon o archivnictví a evidenci nebo zákon o dani z přidané hodnoty."
+   },
+   {
+    "t": "p",
+    "h": "Po uplynutí těchto lhůt budou vaše osobní údaje bezpečně vymazány nebo anonymizovány."
+   },
+   {
+    "t": "h",
+    "h": "Ochrana svěřených dat"
+   },
+   {
+    "t": "p",
+    "h": "Vaši osobní údaje chráníme s maximálním důrazem na jejich bezpečnost. Přijali jsme technická a organizační opatření, která odpovídají aktuálním technickým standardům a povaze zpracování. Konkrétně:"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<strong>přenos dat mezi uživatelem a webem</strong> je realizován výhradně přes <strong>šifrované spojení</strong>, které zabezpečuje protokol HTTPS (SSL certifikát), kde jsou odchozí data zasílána šifrovaně a chráněna tak před odposlechnutím třetí stranou",
+     "<strong>webové stránky a jejich zdrojové kódy</strong> jsou umístěny na bezpečných serverových uložištích s využitím moderních ochranných prvků a přístupových omezení",
+     "<strong>veškeré zpracovávané údaje</strong> ukládáme a chráníme pomocí technologií, které odpovídají stupni technického rozvoje a zajišťují odpovídající úroveň ochrany před neoprávněným přístupem, ztrátou nebo poškozením"
+    ]
+   },
+   {
+    "t": "h",
+    "h": "Vaše práva plynoucí ze zpracování osobních údajů"
+   },
+   {
+    "t": "p",
+    "h": "Ve vztahu k námi prováděnému zpracování Vašich osobních údajů máte následující práva:"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<strong>právo na přístup k osobním údajům</strong>"
+    ]
+   },
+   {
+    "t": "p",
+    "h": "<em>znamená, že si kdykoliv můžete požádat o naše potvrzení, zda osobní údaje, které se Vás týkají, jsou či nejsou zpracovávány, a pokud jsou, pak za jakými účely, v jakém rozsahu, komu jsou zpřístupněny, jak dlouho je budeme zpracovávat, že máte právo na opravu, žádost o výmaz, žádost o omezení zpracování či vznesení námitky, odkud jsme osobní údaje získali a zda dochází na základě zpracování Vašich osobních údajů k automatickému rozhodování, případně profilování. Také máte právo získat kopii Vašich osobních údajů, přičemž první poskytnutí je bezplatné, za další poskytnutí pak může Zprostředkovatel požadovat přiměřenou úhradu administrativních nákladů.</em>"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<strong>právo na opravu</strong>"
+    ]
+   },
+   {
+    "t": "p",
+    "h": "<em>znamená možnost požadovat opravu nepřesných osobních údajů nebo doplnění neúplných osobních údajů.</em>"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<strong>právo na výmaz („právo být zapomenut“)</strong>"
+    ]
+   },
+   {
+    "t": "p",
+    "h": "<em>znamená právo na výmaz osobních údajů, kromě případů, kdy nám v tom brání právní povinnosti nebo pokud jsou splněny jiné výjimky.</em>"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<strong>právo na omezení zpracování údajů</strong>"
+    ]
+   },
+   {
+    "t": "p",
+    "h": "<em>znamená, že dokud nevyřešíme jakékoliv sporné otázky ohledně zpracování Vašich osobních údajů, musíme omezit zpracování Vašich osobních údajů tak, že tyto můžeme mít pouze uloženy a případně je můžeme použít z důvodu určení, výkonu nebo obhajoby právních nároků.</em>"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<strong>právo vznést námitku proti zpracování</strong>"
+    ]
+   },
+   {
+    "t": "p",
+    "h": "<em>znamená, že můžete vznést námitku proti zpracování Vašich osobních údajů, které zpracováváme pro účely přímého marketingu nebo z důvodu oprávněného zájmu. Pokud vznesete námitku proti zpracování pro účely přímého marketingu, nebudou již Vaše osobní údaje pro tyto účely zpracovávány.</em>"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<strong>právo podat stížnost na zpracování osobních údajů</strong>"
+    ]
+   },
+   {
+    "t": "p",
+    "h": "<em>znamená, že pokud se domníváte, že zpracování Vašich osobních údajů je v rozporu s GDPR, máte právo podat stížnost u dozorového úřadu. V České republice vykonává funkci dozorového úřadu Úřad pro ochranu osobních údajů, se sídlem Pplk. Sochora 727/27, 170 00 Praha 7 – Holešovice.</em>"
+   },
+   {
+    "t": "p",
+    "h": "Všechna výše uvedená práva můžete uplatnit <strong>kontaktováním správce údajů</strong> prostřednictvím <strong>e-mailové adresy</strong> uvedené v závěru tohoto dokumentu. Na vaši žádost odpovíme bez zbytečného odkladu, nejpozději do 30 dnů."
+   },
+   {
+    "t": "h",
+    "h": "Cookies soubory"
+   },
+   {
+    "t": "p",
+    "h": "Na našem webu používáme tzv. Cookie soubory – malé datové soubory tvořené písmeny a číslicemi, které navštívená webová stránka odešle do Vašeho prohlížeče, který si je uloží ve Vašem počítači a běžně slouží k rozlišování jednotlivých uživatelů. Osoba uživatele však není na základě těchto informací identifikovatelná na úroveň konkrétní fyzické osoby."
+   },
+   {
+    "t": "p",
+    "h": "Podrobnější informace o tom, jaké cookies používáme, k jakým účelům a jak je můžete spravovat, najdete na samostatné stránce věnované <a href=\"https://levneopravy.cz/cookies/\"><strong>Cookie policy</strong></a>."
+   },
+   {
+    "t": "p",
+    "h": "<strong>Ostatní ujednání</strong>"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "osobní údaje zpracováváme výhradně na území České republiky, případně v členských státech EU – do třetích zemí mimo EU osobní údaje nepředáváme",
+     "webová prezentace naší společnosti může obsahovat odkazy na jiné webové stránky, na které se toto prohlášení o ochraně údajů již nevztahuje – v takovém případě doporučujeme seznámit se s jejich vlastními zásadami ochrany osobních údajů",
+     "naše služby nejsou určeny osobám mladším 15 let a vědomě jejich osobní údaje neshromažďujeme",
+     "prohlašujeme, že <strong>nezpracováváme tzv. zvláštní kategorie osobních údajů</strong> (citlivé údaje) ve smyslu čl. 9 GDPR, jako jsou údaje o rasovém nebo etnickém původu, politických názorech, náboženství a filozofickém přesvědčení, zdravotním stavu, sexuální orientaci, biometrické či genetické údaje a podobně."
+    ]
+   },
+   {
+    "t": "p",
+    "h": "Máte-li jakékoli dotazy, přání na vysvětlení některé části těchto zásad nebo potřebujete projednat konkrétní zpracování osobních údajů – kdykoliv nás můžete kontaktovat na e-mailové adrese: <strong>info@levneopravy.cz</strong>"
+   },
+   {
+    "t": "p",
+    "h": "<em>Tyto Zásady zpracování osobních údajů jsou platné a účinné od 1.9.2025</em>"
+   }
+  ]
+ },
+ "cookies": {
+  "title": "Cookies",
+  "blocks": [
+   {
+    "t": "h",
+    "h": "Zásady používání souborů cookies – Cookie policy"
+   },
+   {
+    "t": "p",
+    "h": "<strong>Cookies</strong> jsou malé textové soubory, které webové stránky ukládají do vašeho zařízení (např. počítače, tabletu nebo mobilního telefonu) prostřednictvím internetového prohlížeče."
+   },
+   {
+    "t": "p",
+    "h": "Umožňují webu například rozpoznat, že jste na stránce už byli, zapamatovat si vaše preference, volbu jazyka nebo přiměřeně sledovat chování návštěvníků. <strong>Cookies obvykle neidentifikují konkrétní osobu.</strong>"
+   },
+   {
+    "t": "h",
+    "h": "Proč cookies používáme?"
+   },
+   {
+    "t": "p",
+    "h": "<strong>Cookies</strong> napomáhají zapamatovat si vaše aktivity a preference po určitou dobu, abyste je při opakované návštěvě webové stránky nemuseli zadávat znovu."
+   },
+   {
+    "t": "p",
+    "h": "Cookies využívá pro svou činnost <strong>naprostá většina webových stránek</strong>, kde se cookies využívají především pro tyto účely:"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "zajištění správného a bezpečného fungování našich webových stránek",
+     "analýza návštěvnosti a zlepšení výkonu webu",
+     "přizpůsobení obsahu a reklam na základě vašich preferencí"
+    ]
+   },
+   {
+    "t": "h",
+    "h": "Jaké druhy cookies se využívají?"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<strong>Technické cookies (nezbytné cookies)</strong>"
+    ]
+   },
+   {
+    "t": "p",
+    "h": "<em>jsou nezbytné pro správné fungování webu a všech funkcí, které nabízí. Jsou často označovány jako „krátkodobé“</em> – <em>zajišťují základní potřeby funkčnosti webu jako je přizpůsobení webových stránek v závislosti na velikosti vašeho zařízení. Jedná se o soubory cookies, které jsou nezbytné pro provoz služby vyžádanou uživatelem a není možné je vypnout – ukládají se automaticky a není k nim potřeba souhlas uživatele.</em>"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<strong>Analytické cookies (statistické cookies)</strong>"
+    ]
+   },
+   {
+    "t": "p",
+    "h": "<em>umožňují měření výkonu našeho webu a účinků úprav, které průběžně na web nasazujeme. Data získaná pomocí těchto cookies zpracováváme souhrnně, bez použití identifikátorů, které ukazují na konkrétní uživatelé našeho webu. Pokud vypnete používání analytických cookies ve vztahu k vaší návštěvě, ztrácíme možnost analýzy výkonu a optimalizace našich opatření. Pro použití těchto druhů Cookies je nutný souhlas.</em>"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<strong>Marketingové cookies (preferenční cookies)</strong>"
+    ]
+   },
+   {
+    "t": "p",
+    "h": "<em>nám umožňují zobrazovat vám vhodný obsah nebo reklamy přizpůsobené vašim zájmům jak na našich stránkách, tak na stránkách třetích subjektů. Pro použití těchto druhů Cookies je nutný souhlas.</em>"
+   },
+   {
+    "t": "p",
+    "h": "<strong>Důležitá informace:</strong> na základě souborů cookies nejsme schopni identifikovat návštěvníka na úroveň konkrétní fyzické osoby."
+   },
+   {
+    "t": "h",
+    "h": "Co tvoří soubory cookies?"
+   },
+   {
+    "t": "p",
+    "h": "Každý jeden datový soubor cookie obsahuje:"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<strong>Název:</strong> odlišuje od sebe cookies, která pochází ze stejného zdroje",
+     "<strong>Hodnota:</strong> vytvořený dlouhý řetězec čísel a znaků",
+     "<strong>Datum expirace:</strong> čas, kdy uložené cookie expiruje neboli zmizí z prohlížeče",
+     "<strong>Doména:</strong> jedná se o doménu, ke které je cookie vázaná a dostupná",
+     "<strong>Velikost:</strong> jak moc je datový soubor cookie velký a kolik zabírá místa",
+     "<strong>Cesta:</strong> určuje, které stránky domén (url adresy) se ke cookies dostanou"
+    ]
+   },
+   {
+    "t": "h",
+    "h": "Jak odmítnout používání souborů cookies?"
+   },
+   {
+    "t": "p",
+    "h": "Většina prohlížečů umožňuje zobrazit, spravovat, mazat a blokovat cookies webových stránek. Postup k deaktivaci cookies najdete na webových stránkách jednotlivých prohlížečů:"
+   },
+   {
+    "t": "p",
+    "h": "Kromě trvalé deaktivace ukládání cookies je možné tyto soubory manuálně smazat z počítače (<em>obvykle pomocí klávesové zkratky: CTRL + SHIFT + Delete</em>) po každé návštěvě webové stránky."
+   },
+   {
+    "t": "h",
+    "h": "Cookies a technologie třetích stran"
+   },
+   {
+    "t": "p",
+    "h": "Na naší webové stránce můžeme spolupracovat s partnery, kteří pomáhají s tím, abyste viděli relevantní reklamy, umožňují nám vyhodnocovat výkonnost webových stránek a sledovat, jakým způsobem webové stránky používáte a dosahovat tak větší efektivity webových stránek."
+   },
+   {
+    "t": "p",
+    "h": "Tito poskytovatelé služeb mohou osobní údaje z cookies použít pro své vlastní účely podle vlastních zásad zpracování osobních údajů a jsou tak dalšími správci osobních údajů."
+   },
+   {
+    "t": "h",
+    "h": "Odkazy na jiné webové stránky"
+   },
+   {
+    "t": "p",
+    "h": "Tento web může obsahovat odkazy nebo reference na jiné webové stránky, pro které tyto zásady ochrany soukromí neplatí. Doporučujeme vám seznámit se se zásadami ochrany soukromí na všech webových stránkách, které navštívíte."
+   },
+   {
+    "t": "h",
+    "h": "Jaká máte práva týkající se osobních údajů a používání cookies?"
+   },
+   {
+    "t": "p",
+    "h": "Klademe důraz na ochranu osobních údajů a respektujeme všechna práva, která vám jako občanům nebo osobám s trvalým pobytem v Evropském hospodářském prostoru náleží podle platných právních předpisů, zejména nařízení GDPR. Máte mimo jiné tato práva:"
+   },
+   {
+    "t": "ul",
+    "items": [
+     "<strong>právo na informace</strong> – máte právo vědět, proč jsou vaše osobní údaje potřebné, co se s nimi stane a jak dlouho budou uchovány",
+     "<strong>právo na přístup</strong> – máte právo na přístup k vašim osobním údajům, které jsou nám známy",
+     "<strong>právo na opravu</strong> – máte právo doplnit, opravit, odstranit nebo zablokovat vaše osobní údaje, kdykoli budete chtít",
+     "<strong>právo na odvolání souhlasu</strong> – pokud nám udělíte souhlas se zpracováním vašich údajů, máte právo tento souhlas odvolat a požádat o výmaz svých údajů",
+     "<strong>právo na přenos vašich údajů</strong> – máte právo vyžádat si od správce všechny vaše osobní údaje a v celém rozsahu je předat jinému správci",
+     "<strong>právo na námitku</strong> – máte právo vznést námitku proti zpracování vašich osobních údajů (včetně údajů získaných prostřednictvím cookies), kde v takovém případě vaši námitku posoudíme a zpracování ukončíme, pokud nebudeme mít závažné oprávněné důvody pro jeho další pokračování"
+    ]
+   },
+   {
+    "t": "p",
+    "h": "Pro uplatnění těchto práv nás prosím kdykoliv kontaktujte, kde kontaktní údaje najdete ve spodní části těchto Zásad používání souborů cookies – Cookie policy."
+   },
+   {
+    "t": "p",
+    "h": "Máte-li jakékoliv výhrady k tomu, jak nakládáme s vašimi osobními údaji, budeme rádi, když nás o tom informujete – uděláme vše pro to, abychom situaci co nejdříve napravili. Máte však také právo podat stížnost u dozorového orgánu, kterým je Úřad pro ochranu osobních údajů (<a href=\"http://www.uoou.cz/\">www.uoou.cz</a>)."
+   },
+   {
+    "t": "h",
+    "h": "Jazykové verze a cookies"
+   },
+   {
+    "t": "p",
+    "h": "Tyto Zásady používání souborů cookies mohou být dostupné také v jiných jazykových verzích. V případě rozdílů mezi jazykovými verzemi je rozhodující a právně závazná česká verze."
+   },
+   {
+    "t": "h",
+    "h": "Kontaktní údaje – jak se s námi spojit?"
+   },
+   {
+    "t": "p",
+    "h": "Máte-li jakékoli dotazy nebo připomínky týkající se zpracování osobních údajů nebo používání souborů cookies, neváhejte se obrátit na správce osobních údajů prostřednictvím e-mailu: <strong>info@levneopravy.cz</strong>"
+   },
+   {
+    "t": "p",
+    "h": "<em>Tyto Zásady používání souborů Cookies jsou platné a účinné od 1.9.2025</em>"
+   }
+  ]
+ },
+ "pravni-ujednani": {
+  "title": "Právní ujednání",
+  "blocks": [
+   {
+    "t": "h",
+    "h": "Právní ujednání – Legal Disclaimer"
+   },
+   {
+    "t": "p",
+    "h": "Webové stránky provozované naší společností pod subjektem <strong>Levné opravy – Praha</strong>, se sídlem: <strong>Na Proseku 35/2, Praha 9</strong>, IČ: 872 94 231, slouží pro informační účely a prezentaci nabízených služeb nebo produktů."
+   },
+   {
+    "t": "h",
+    "h": "Omezení odpovědnosti"
+   },
+   {
+    "t": "p",
+    "h": "Informace uvedené na těchto stránkách mají pouze <strong>obecný informativní charakter</strong> a nejsou právně závazné. Provozovatel si vyhrazuje právo kdykoli změnit či upravit jejich obsah bez předchozího upozornění."
+   },
+   {
+    "t": "p",
+    "h": "Provozovatel se přiměřeně snaží zajistit, aby informace uvedené na webu byly aktuální a přesné, nicméně <strong>neposkytuje žádné záruky</strong> ohledně jejich správnosti, aktuálnosti nebo úplnosti. Za obsah webových stránek třetích stran, na které může tento web odkazovat, <strong>nenese provozovatel odpovědnost</strong>."
+   },
+   {
+    "t": "p",
+    "h": "Obsah těchto stránek nepředstavuje právní úkon ani veřejnou nabídku ve smyslu občanského zákoníku, ledaže je výslovně uvedeno jinak."
+   },
+   {
+    "t": "h",
+    "h": "Zásah vyšší moci"
+   },
+   {
+    "t": "p",
+    "h": "Provozovatel www stránek nenese odpovědnost za zpoždění nebo přerušení funkčnosti těchto stránek z důvodů tzv. vyšší moci, mimo jiné včetně požárů, záplav, přírodních katastrof, výpadků telekomunikačních sítí, útoků hackerů, šíření škodlivého softwaru, výpadků napájení, závad na hardwaru či softwaru, státního zásahu nebo jiných mimořádných událostí. Nic z výše uvedeného nezakládá nárok na náhradu škody ani nevytváří jakoukoli implicitní záruku."
+   },
+   {
+    "t": "h",
+    "h": "Prohlášení o přístupnosti"
+   },
+   {
+    "t": "p",
+    "h": "Provozovatel těchto webových stránek prohlašuje, že se snaží zajistit <strong>přístupnost</strong> obsahu i všech funkcionalit webu pro všechny uživatele internetu, včetně osob se zdravotním znevýhodněním."
+   },
+   {
+    "t": "h",
+    "h": "Chování uživatelů"
+   },
+   {
+    "t": "p",
+    "h": "Uživatelé těchto stránek nesmí jakýmkoli způsobem zasahovat do jejich bezpečnosti, narušovat jejich provoz, přenášet škodlivé kódy nebo se pokoušet o neoprávněný přístup do neveřejných částí webu. Uživatel je zároveň povinen <strong>respektovat autorská práva</strong> k obsahu těchto stránek."
+   },
+   {
+    "t": "h",
+    "h": "Autorská práva"
+   },
+   {
+    "t": "p",
+    "h": "Autorská práva k veškerému obsahu, včetně textů, obrázků a grafiky, jsou chráněna dle platných právních předpisů. Jakékoli kopírování nebo šíření obsahu bez předchozího souhlasu provozovatele je striktně zakázáno."
+   },
+   {
+    "t": "p",
+    "h": "<em>Právní informace a ujednání jsou platné a účinné od 1.9.2025</em>"
+   }
+  ]
+ }
+}

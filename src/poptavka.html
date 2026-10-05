@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as m with context %}
+{% block main %}
+{{ m.pagehead('Poptávka', 'Napište nám zprávu', 'Jsme vždy rádi za jakoukoliv novou spolupráci, proto prosím napište nebo zavolejte.') }}
+<section class="contact contact--page">
+  <div class="wrap contact__in">
+    {{ m.form() }}
+    <div class="contact__txt">
+      <div class="contact__list">
+        <a href="tel:{{ S.phone_href }}">{{ m.ico('phone') }}<span><small>Zavolejte nám</small>{{ S.phone }}</span></a>
+        <a href="mailto:{{ S.email }}">{{ m.ico('mail') }}<span><small>Napište nám</small>{{ S.email }}</span></a>
+        <div>{{ m.ico('clock') }}<span><small>Pracovní doba</small>{{ S.hours }}<br>Víkend – dle dohody</span></div>
+      </div>
+      <div class="offices offices--col">{% for o in S.offices %}<div class="office">{{ m.house() }}<b>{{ o.t }}</b><span>{{ o.a }}</span></div>{% endfor %}</div>
+    </div>
+  </div>
+</section>
+{% endblock %}

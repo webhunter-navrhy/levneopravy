@@ -1,0 +1,70 @@
+========= html/gdpr.html
+#h3 Zásady ochrany osobních údajů – GDPR
+V naší společnosti pod subjektem Levné opravy – Praha , se sídlem: Na Proseku 35/2, Praha 9 , IČ: 872 94 231 , klademe velký důraz na ochranu osobních údajů našich klientů, partnerů, návštěvníků webu a lidí, se kterými přijdeme v rámci naší činnosti do kontaktu.
+V tomto dokumentu vás informujeme o tom, jakým způsobem zpracováváme vaše osobní údaje a jaká vám v této souvislosti náleží práva podle nařízení Evropského parlamentu a Rady (EU) 2016/679 (GDPR) a dalších souvisejících právních předpisů.
+Při zpracování osobních údajů postupujeme v souladu s nařízením GDPR , tj. nařízením Evropského parlamentu a Rady (EU) 2016/679 ze dne 27. dubna 2016 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů a o volném pohybu těchto údajů, a dále v souladu s příslušnými právními předpisy České republiky.
+Ve smyslu uvedených předpisů vystupujeme v roli správce osobních údajů .
+#h4 Účely zpracování osobních údajů
+Hlavním účelem zpracování vašich osobních údajů je umožnit vám využívat naše služby a produkty nabízené na těchto webových stránkách, reagovat na vaše požadavky a zároveň neustále zlepšovat jejich kvalitu a bezpečnost.
+Vaše osobní údaje mohou být zpracovávány zejména pro tyto účely:
+- vyřizování požadavků zaslaných prostřednictvím elektronických formulářů
+- marketingové účely – zasílání obchodních sdělení, nabídka služeb a produktů
+- plnění právních povinností vůči orgánů veřejné moci v souladu s příslušnými předpisy
+Zpracování osobních údajů probíhá jak manuálně, tak automatizovaně. Automatizované zpracování osobních údajů se může uplatnit například při vyhodnocování poptávek, poskytování personalizovaných informací o našich službách, událostech nebo novinkách, které by pro vás mohly být relevantní.
+#h4 Povinné a dobrovolné poskytnutí údajů
+Poskytnutí osobních údajů v případech, kdy je to nezbytné pro uzavření smlouvy nebo vyřízení vaší žádosti, je dobrovolné, avšak nezbytné. Bez těchto údajů vám nemusíme být schopni danou službu poskytnout, případně na vaši žádost odpovědět.
+Zpracování osobních údajů pro marketingové účely je vždy založeno na vašem souhlasu, který můžete kdykoli odvolat. Odvolání souhlasu nemá vliv na zákonnost zpracování provedeného před jeho odvoláním, ani na ostatní smluvní nebo zákonné vztahy mezi vámi a naší společností.
+Zpracování Vašich osobních údajů za účelem zasílání obchodních sdělení můžete kdykoliv odmítnout či odvolat a nebude to mít vliv na naše jiné vzájemné vztahy. Stačí nám zaslat e-mail s příslušnou žádostí na emailovou adresu uvedenou v kontaktech webu, případně na adresu, ze které jste od nás obdrželi obchodní sdělení.
+#h4 Rozsah zpracování osobních údajů
+Při kontaktu s námi prostřednictvím webových stránek nebo jiných komunikačních kanálů od vás můžeme požadovat některé osobní údaje, které jsou nezbytné pro odpověď na vaši poptávku nebo poskytnutí našich služeb.
+Těmito údaji mohou být zejména:
+- vaše jméno a příjmení
+- obchodní firma (u podnikatelů)
+- adresa nebo sídlo společnosti
+- adresa realizace či doručení
+- identifikační číslo (IČ) a daňové identifikační číslo (DIČ)
+- telefonní číslo
+- e-mailová adresa
+Údaje, které nám poskytujete, používáme k tomu, abychom Vás kontaktovali zpět a poskytli Vám informace, o které jste nás požádali. Veškeré osobní údaje jsou zpracovány zákonným a transparentním způsobem a jsou vyžadovány pouze přiměřené, relevantní a nezbytné údaje ve vztahu k účelu zpracování.
+#h4 Kdo má k Vašim osobním údajům přístup
+Vaše osobní údaje budeme jako správce zpracovávat My. Vaše osobní údaje můžeme za uvedenými účely předat našim subdodavatelům, aby pro nás provedli jejich zpracování.
+Vaše osobní údaje zpracováváme jako správce my, tedy společnost či provozovatel uvedený v záhlaví tohoto prohlášení.
+Pro některé účely můžeme využít důvěryhodné smluvní partnery (tzv. zpracovatele ), kteří údaje zpracovávají pouze podle našich pokynů a za účelem, který jsme stanovili.
+Osobní údaje mohou být předány pouze na základě Vašich poptávek:
+- obchodním partnerům v oblasti dopravních služeb
+- obchodním partnerům v oblasti finančních služeb
+- orgánům veřejné správy v případě dotazu o součinnost v rámci oprávněného zájmu
+Ve všech případech dbáme na to, aby byly údaje předávány pouze v nezbytném rozsahu, bezpečně a v souladu s platnými právními předpisy.
+#h4 Doba zpracování osobních údajů
+Vaše osobní údaje budeme zpracovávat po dobu, po kterou Vám budeme poskytovat naše služby či plnit vzájemnou smlouvu, nebo po dobu nezbytnou k plnění archivačních povinností podle platných právních předpisů, jako jsou například zákon o účetnictví, zákon o archivnictví a evidenci nebo zákon o dani z přidané hodnoty.
+Po uplynutí těchto lhůt budou vaše osobní údaje bezpečně vymazány nebo anonymizovány.
+#h4 Ochrana svěřených dat
+Vaši osobní údaje chráníme s maximálním důrazem na jejich bezpečnost. Přijali jsme technická a organizační opatření, která odpovídají aktuálním technickým standardům a povaze zpracování. Konkrétně:
+- přenos dat mezi uživatelem a webem je realizován výhradně přes šifrované spojení , které zabezpečuje protokol HTTPS (SSL certifikát), kde jsou odchozí data zasílána šifrovaně a chráněna tak před odposlechnutím třetí stranou
+- webové stránky a jejich zdrojové kódy jsou umístěny na bezpečných serverových uložištích s využitím moderních ochranných prvků a přístupových omezení
+- veškeré zpracovávané údaje ukládáme a chráníme pomocí technologií, které odpovídají stupni technického rozvoje a zajišťují odpovídající úroveň ochrany před neoprávněným přístupem, ztrátou nebo poškozením
+#h4 Vaše práva plynoucí ze zpracování osobních údajů
+Ve vztahu k námi prováděnému zpracování Vašich osobních údajů máte následující práva:
+- právo na přístup k osobním údajům
+znamená, že si kdykoliv můžete požádat o naše potvrzení, zda osobní údaje, které se Vás týkají, jsou či nejsou zpracovávány, a pokud jsou, pak za jakými účely, v jakém rozsahu, komu jsou zpřístupněny, jak dlouho je budeme zpracovávat, že máte právo na opravu, žádost o výmaz, žádost o omezení zpracování či vznesení námitky, odkud jsme osobní údaje získali a zda dochází na základě zpracování Vašich osobních údajů k automatickému rozhodování, případně profilování. Také máte právo získat kopii Vašich osobních údajů, přičemž první poskytnutí je bezplatné, za další poskytnutí pak může Zprostředkovatel požadovat přiměřenou úhradu administrativních nákladů.
+- právo na opravu
+znamená možnost požadovat opravu nepřesných osobních údajů nebo doplnění neúplných osobních údajů.
+- právo na výmaz („právo být zapomenut“)
+znamená právo na výmaz osobních údajů, kromě případů, kdy nám v tom brání právní povinnosti nebo pokud jsou splněny jiné výjimky.
+- právo na omezení zpracování údajů
+znamená, že dokud nevyřešíme jakékoliv sporné otázky ohledně zpracování Vašich osobních údajů, musíme omezit zpracování Vašich osobních údajů tak, že tyto můžeme mít pouze uloženy a případně je můžeme použít z důvodu určení, výkonu nebo obhajoby právních nároků.
+- právo vznést námitku proti zpracování
+znamená, že můžete vznést námitku proti zpracování Vašich osobních údajů, které zpracováváme pro účely přímého marketingu nebo z důvodu oprávněného zájmu. Pokud vznesete námitku proti zpracování pro účely přímého marketingu, nebudou již Vaše osobní údaje pro tyto účely zpracovávány.
+- právo podat stížnost na zpracování osobních údajů
+znamená, že pokud se domníváte, že zpracování Vašich osobních údajů je v rozporu s GDPR, máte právo podat stížnost u dozorového úřadu. V České republice vykonává funkci dozorového úřadu Úřad pro ochranu osobních údajů, se sídlem Pplk. Sochora 727/27, 170 00 Praha 7 – Holešovice.
+Všechna výše uvedená práva můžete uplatnit kontaktováním správce údajů prostřednictvím e-mailové adresy uvedené v závěru tohoto dokumentu. Na vaši žádost odpovíme bez zbytečného odkladu, nejpozději do 30 dnů.
+#h4 Cookies soubory
+Na našem webu používáme tzv. Cookie soubory – malé datové soubory tvořené písmeny a číslicemi, které navštívená webová stránka odešle do Vašeho prohlížeče, který si je uloží ve Vašem počítači a běžně slouží k rozlišování jednotlivých uživatelů. Osoba uživatele však není na základě těchto informací identifikovatelná na úroveň konkrétní fyzické osoby.
+Podrobnější informace o tom, jaké cookies používáme, k jakým účelům a jak je můžete spravovat, najdete na samostatné stránce věnované Cookie policy .
+Ostatní ujednání
+- osobní údaje zpracováváme výhradně na území České republiky, případně v členských státech EU –  do třetích zemí mimo EU osobní údaje nepředáváme
+- webová prezentace naší společnosti může obsahovat odkazy na jiné webové stránky, na které se toto prohlášení o ochraně údajů již nevztahuje – v takovém případě doporučujeme seznámit se s jejich vlastními zásadami ochrany osobních údajů
+- naše služby nejsou určeny osobám mladším 15 let a vědomě jejich osobní údaje neshromažďujeme
+- prohlašujeme, že nezpracováváme tzv. zvláštní kategorie osobních údajů (citlivé údaje) ve smyslu čl. 9 GDPR, jako jsou údaje o rasovém nebo etnickém původu, politických názorech, náboženství a filozofickém přesvědčení, zdravotním stavu, sexuální orientaci, biometrické či genetické údaje a podobně.
+Máte-li jakékoli dotazy, přání na vysvětlení některé části těchto zásad nebo potřebujete projednat konkrétní zpracování osobních údajů – kdykoliv nás můžete kontaktovat na e-mailové adrese: info@levneopravy.cz
+Tyto Zásady zpracování osobních údajů jsou platné a účinné od 1.9.2025

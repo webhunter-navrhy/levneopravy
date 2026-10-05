@@ -1,0 +1,24 @@
+<div class="cz reveal" data-map>
+  <svg viewBox="-20 -20 {{ MAP.w + 40 }} {{ MAP.h + 40 }}" role="img" aria-label="Mapa poboček Levné opravy po České republice">
+    <defs>
+      <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="7" cy="7" r="1.6" fill="rgba(255,255,255,.16)"/></pattern>
+    </defs>
+    <path d="{{ MAP.path }}" class="cz__land"/>
+    <path d="{{ MAP.path }}" fill="url(#dots)"/>
+    {% for p in PINS %}
+    <g class="cz__pin" style="--d:{{ loop.index0 * 45 }}ms" transform="translate({{ p.x }} {{ p.y }})" tabindex="0" data-n="{{ p.n }}" data-a="{{ p.a }}">
+      <circle r="18" class="cz__hit"/><circle r="6.5" class="cz__dot"/>
+    </g>
+    {% endfor %}
+    {% for h in HUBS %}
+    <g class="cz__hub" transform="translate({{ h.x }} {{ h.y }})">
+      <circle r="26" class="cz__pulse"/>
+      <path d="M0 -24 L17 -12 V14 H-17 V-12 Z" class="cz__house"/>
+      <text y="9" text-anchor="middle" class="cz__amp">&amp;</text>
+      <text y="44" text-anchor="middle" class="cz__lbl">{{ h.n }}</text>
+    </g>
+    {% endfor %}
+  </svg>
+  <div class="cz__tip" hidden><b></b><span></span></div>
+  <p class="cz__legend"><span class="cz__lg cz__lg--h"></span> Levné opravy – Praha, Brno, Olomouc <span class="cz__lg"></span> pobočky montážního servisu</p>
+</div>

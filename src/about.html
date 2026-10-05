@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as m with context %}
+{% block main %}
+{{ m.pagehead('O nás', 'Potřebujete spolehlivého řemeslníka?', S.intro) }}
+<section class="about about--page">
+  <div class="wrap about__in">
+    <div class="about__media reveal">
+      <img class="about__a" src="{{ R }}{{ M['firemni-auto-levne-opravy'].src }}" alt="Firemní auto Levné opravy" width="{{ M['firemni-auto-levne-opravy'].w }}" height="{{ M['firemni-auto-levne-opravy'].h }}">
+      <img class="about__b" src="{{ R }}{{ M['kuchyne_na_miru'].src }}" alt="Kuchyně na míru – realizace" loading="lazy" width="{{ M['kuchyne_na_miru'].w }}" height="{{ M['kuchyne_na_miru'].h }}">
+      <span class="about__stamp">{{ m.house() }}</span>
+    </div>
+    <div class="about__txt">
+      {{ m.kicker('levné OPRAVY & montážní SERVIS') }}
+      <h2 class="h2">Levně, rychle a <em>kvalitně</em></h2>
+      <p class="about__lead">{{ S.slogan }}</p>
+      <p>{{ S.intro2 }} Všechny tyto práce poskytujeme po celé České republice a blízkého okolí levně, rychle a kvalitně!</p>
+      <p>Již řadu let Vás jako <strong>partner prodejen OBI</strong> doprovázíme při realizacích i výběru vhodných materiálů. Zahradní domky a vše pro zahradu stavíme od prověřených společností OBI, Weka, Biohort nebo Maone.</p>
+    </div>
+  </div>
+</section>
+<section class="perks perks--page">
+  <div class="wrap perks__grid">
+    {% for p in S.perks %}<div class="perk reveal" style="--d:{{ loop.index0 * 80 }}ms"><span class="perk__i">{{ m.ico(p.k) }}</span><h3>{{ p.t }}</h3><p>{{ p.d }}</p></div>{% endfor %}
+  </div>
+</section>
+<section class="cando-sec">
+  <div class="wrap">
+    {{ m.kicker('Co pro vás můžeme udělat?') }}
+    <h2 class="h2">Jeden dodavatel na celou zakázku</h2>
+    <ul class="cando cando--big">{% for c in S.can_do %}<li>{{ m.ico('check') }}<span>{{ c }}</span></li>{% endfor %}</ul>
+  </div>
+</section>
+<section class="partners">
+  <div class="wrap partners__in"><p>Naši partneři</p><div class="partners__logos">{% for k, n in S.partners %}<img src="{{ R }}{{ M[k].src }}" alt="{{ n }}" loading="lazy">{% endfor %}</div></div>
+</section>
+{{ m.cta() }}
+{% endblock %}

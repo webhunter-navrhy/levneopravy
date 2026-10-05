@@ -1,0 +1,115 @@
+{% import 'macros.html' as m with context %}<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>{{ title }}</title>
+{% if description %}<meta name="description" content="{{ description }}">{% endif %}
+<meta property="og:title" content="{{ title }}">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#DF0001">
+<link rel="icon" href="{{ R }}favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ R }}assets/style.css?v={{ V.css }}">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"Levné opravy & montážní servis","url":"https://levneopravy.cz/","telephone":"{{ S.phone_href }}","email":"{{ S.email }}","address":{"@type":"PostalAddress","streetAddress":"Na Proseku 35/2","addressLocality":"Praha 9","addressCountry":"CZ"},"openingHours":"Mo-Fr 08:00-18:00","areaServed":"CZ"}</script>
+</head>
+<body class="{% block bodyclass %}sub{% endblock %}">
+<a class="skip" href="#obsah">Přeskočit na obsah</a>
+<div class="topbar">
+  <div class="wrap topbar__in">
+    <span>{{ m.ico('pin') }} {{ S.area }}</span>
+    <span>{{ m.ico('clock') }} {{ S.hours }} · {{ S.hours_weekend|lower }}</span>
+    <a href="mailto:{{ S.email }}">{{ m.ico('mail') }} {{ S.email }}</a>
+  </div>
+</div>
+<header class="hdr" id="hdr">
+  <div class="wrap hdr__in">
+    <a class="hdr__logo" href="{{ L('/') }}" aria-label="Levné opravy & montážní servis – úvod"><img src="{{ R }}{{ M['logo-opravy'].src }}" width="{{ M['logo-opravy'].w }}" height="{{ M['logo-opravy'].h }}" alt="levné OPRAVY & montážní SERVIS"></a>
+    <nav class="nav" aria-label="Hlavní menu">
+      <ul>
+      {% for n in S.nav[1:] %}
+        <li class="{{ 'has-sub' if n.sub }}{{ ' is-active' if active == n.h }}">
+          <a href="{{ L(n.h) }}">{{ n.t }}{% if n.sub %} <svg class="chev" viewBox="0 0 12 12"><path d="M3 4.5l3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>{% endif %}</a>
+          {% if n.sub %}
+          <div class="mega{{ ' mega--sm' if n.sub == 'other' }}">
+            <div class="mega__grid">
+            {% for s in (MAIN if n.sub == 'main' else OTHER) %}
+              <a href="{{ L(s.path) }}" class="mega__item"><img src="{{ R }}{{ s.cover.src }}" alt="" loading="lazy"><span>{{ s.short_title }}</span></a>
+            {% endfor %}
+            </div>
+            <a class="mega__all" href="{{ L(n.h) }}">Zobrazit {{ 'všechny hlavní služby' if n.sub == 'main' else 'všechny další služby' }} →</a>
+          </div>
+          {% endif %}
+        </li>
+      {% endfor %}
+      </ul>
+    </nav>
+    <div class="hdr__cta">
+      <a class="hdr__tel" href="tel:{{ S.phone_href }}">{{ m.ico('phone') }}<span>{{ S.phone }}</span></a>
+      <a class="btn btn--red btn--sm" href="{{ L('/poptavka/') }}">Poptávka</a>
+      <button class="burger" aria-label="Otevřít menu" aria-expanded="false" aria-controls="mnav"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="mnav" id="mnav" hidden>
+  <nav class="mnav__in" aria-label="Mobilní menu">
+    {% for n in S.nav %}
+      {% if n.sub %}
+      <details class="mnav__grp"><summary>{{ n.t }}</summary>
+        <a href="{{ L(n.h) }}" class="mnav__all">Přehled →</a>
+        {% for s in (MAIN if n.sub == 'main' else OTHER) %}<a href="{{ L(s.path) }}">{{ s.title }}</a>{% endfor %}
+      </details>
+      {% else %}<a class="mnav__top" href="{{ L(n.h) }}">{{ n.t }}</a>{% endif %}
+    {% endfor %}
+    <a class="mnav__top" href="{{ L('/poptavka/') }}">Poptávka</a>
+    <div class="mnav__contact">
+      <a href="tel:{{ S.phone_href }}">{{ m.ico('phone') }} {{ S.phone }}</a>
+      <a href="mailto:{{ S.email }}">{{ m.ico('mail') }} {{ S.email }}</a>
+      <span>{{ S.hours }}</span>
+    </div>
+  </nav>
+</div>
+
+<main id="obsah">
+{% block main %}{% endblock %}
+</main>
+
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr__top">
+      <div class="ftr__brand">
+        <img src="{{ R }}{{ M['logo-opravy-white'].src }}" width="236" height="52" alt="levné OPRAVY & montážní SERVIS" loading="lazy">
+        <p>{{ S.intro }}</p>
+        <p class="ftr__slogan">{{ S.slogan }}</p>
+      </div>
+      <div class="ftr__col">
+        <h3>Kontakt</h3>
+        <a href="tel:{{ S.phone_href }}">{{ S.phone }}</a>
+        <a href="mailto:{{ S.email }}">{{ S.email }}</a>
+        <span>{{ S.hours }}</span>
+        <span>{{ S.hours_weekend }}</span>
+        <span>{{ S.area }}</span>
+      </div>
+      <div class="ftr__col">
+        <h3>Navigace</h3>
+        {% for n in S.nav %}<a href="{{ L(n.h) }}">{{ n.t }}</a>{% endfor %}
+        <a href="{{ L('/poptavka/') }}">Poptávka</a>
+      </div>
+      <div class="ftr__col ftr__col--svc">
+        <h3>Nejžádanější</h3>
+        {% for k in ['montaz-dveri-a-oblozek','bytova-jadra','instalaterske-prace','elektrikarske-prace','montaz-kuchyni','pravidelna-udrzba-domu','akce'] %}<a href="{{ L(BY[k].path) }}">{{ BY[k].short_title }}</a>{% endfor %}
+      </div>
+    </div>
+    <div class="ftr__bot">
+      <span>© 2026 {{ S.company }} · IČ {{ S.ico }} · {{ S.seat }}</span>
+      <span><a href="{{ L('/gdpr/') }}">GDPR</a> · <a href="{{ L('/cookies/') }}">Cookies</a> · <a href="{{ L('/pravni-ujednani/') }}">Právní ujednání</a></span>
+    </div>
+    <p class="ftr__note">Nezávazný návrh nového webu od Studentských Webů. Obsah převzat z levneopravy.cz.</p>
+  </div>
+</footer>
+<script>window.FINDER = {{ FINDER|safe }}; window.ROOT = "{{ R }}";</script>
+<script src="{{ R }}assets/main.js?v={{ V.js }}" defer></script>
+</body>
+</html>

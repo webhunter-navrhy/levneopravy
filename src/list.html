@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as m with context %}
+{% block main %}
+{{ m.pagehead(kicker, h1, S.intro) }}
+<section class="listing">
+  <div class="wrap">
+    {% if path == '/nase-sluzby/' %}
+    <a class="feature-door" href="{{ L('/sluzba/montaz-dveri-a-oblozek/') }}">
+      <img src="{{ R }}{{ BY['montaz-dveri-a-oblozek'].cover.src }}" alt="" loading="lazy">
+      <span><small>Naše specializace</small><b>Montáž dveří a obložek</b><em>{{ BY['montaz-dveri-a-oblozek'].short }}</em></span>
+      <span class="card__go">{{ m.ico('arrow') }}</span>
+    </a>
+    {% endif %}
+    <div class="grid">{% for s in items %}{{ m.svc_card(s) }}{% endfor %}</div>
+  </div>
+</section>
+<section class="related related--alt">
+  <div class="wrap">
+    {{ m.kicker('Nenašli jste, co hledáte?') }}
+    <h2 class="h2">{{ other[0] }}</h2>
+    <div class="pills">{% for s in other[2] %}<a href="{{ L(s.path) }}">{{ s.short_title }}</a>{% endfor %}<a href="{{ L('/sluzba/akce/') }}" class="pills__hl">Akce: výměna dveří 10 990 Kč</a></div>
+  </div>
+</section>
+{{ m.cta() }}
+{% endblock %}

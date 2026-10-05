@@ -1,0 +1,49 @@
+========= html/cookies.html
+#h3 Zásady používání souborů cookies – Cookie policy
+Cookies jsou malé textové soubory, které webové stránky ukládají do vašeho zařízení (např. počítače, tabletu nebo mobilního telefonu) prostřednictvím internetového prohlížeče.
+Umožňují webu například rozpoznat, že jste na stránce už byli, zapamatovat si vaše preference, volbu jazyka nebo přiměřeně sledovat chování návštěvníků. Cookies obvykle neidentifikují konkrétní osobu.
+#h4 Proč cookies používáme?
+Cookies napomáhají zapamatovat si vaše aktivity a preference po určitou dobu, abyste je při opakované návštěvě webové stránky nemuseli zadávat znovu.
+Cookies využívá pro svou činnost naprostá většina webových stránek , kde se cookies využívají především pro tyto účely:
+- zajištění správného a bezpečného fungování našich webových stránek
+- analýza návštěvnosti a zlepšení výkonu webu
+- přizpůsobení obsahu a reklam na základě vašich preferencí
+#h4 Jaké druhy cookies se využívají?
+- Technické cookies (nezbytné cookies)
+jsou nezbytné pro správné fungování webu a všech funkcí, které nabízí. Jsou často označovány jako „krátkodobé“ – zajišťují základní potřeby funkčnosti webu jako je přizpůsobení webových stránek v závislosti na velikosti vašeho zařízení. Jedná se o soubory cookies, které jsou nezbytné pro provoz služby vyžádanou uživatelem a není možné je vypnout – ukládají se automaticky a není k nim potřeba souhlas uživatele.
+- Analytické cookies (statistické cookies)
+umožňují měření výkonu našeho webu a účinků úprav, které průběžně na web nasazujeme. Data získaná pomocí těchto cookies zpracováváme souhrnně, bez použití identifikátorů, které ukazují na konkrétní uživatelé našeho webu. Pokud vypnete používání analytických cookies ve vztahu k vaší návštěvě, ztrácíme možnost analýzy výkonu a optimalizace našich opatření. Pro použití těchto druhů Cookies je nutný souhlas.
+- Marketingové cookies (preferenční cookies)
+nám umožňují zobrazovat vám vhodný obsah nebo reklamy přizpůsobené vašim zájmům jak na našich stránkách, tak na stránkách třetích subjektů. Pro použití těchto druhů Cookies je nutný souhlas.
+Důležitá informace: na základě souborů cookies nejsme schopni identifikovat návštěvníka na úroveň konkrétní fyzické osoby.
+#h4 Co tvoří soubory cookies?
+Každý jeden datový soubor cookie obsahuje:
+- Název: odlišuje od sebe cookies, která pochází ze stejného zdroje
+- Hodnota: vytvořený dlouhý řetězec čísel a znaků
+- Datum expirace: čas, kdy uložené cookie expiruje neboli zmizí z prohlížeče
+- Doména: jedná se o doménu, ke které je cookie vázaná a dostupná
+- Velikost: jak moc je datový soubor cookie velký a kolik zabírá místa
+- Cesta: určuje, které stránky domén (url adresy) se ke cookies dostanou
+#h4 Jak odmítnout používání souborů cookies?
+Většina prohlížečů umožňuje zobrazit, spravovat, mazat a blokovat cookies webových stránek. Postup k deaktivaci cookies najdete na webových stránkách jednotlivých prohlížečů:
+Kromě trvalé deaktivace ukládání cookies je možné tyto soubory manuálně smazat z počítače ( obvykle pomocí klávesové zkratky: CTRL + SHIFT + Delete ) po každé návštěvě webové stránky.
+#h4 Cookies a technologie třetích stran
+Na naší webové stránce můžeme spolupracovat s partnery, kteří pomáhají s tím, abyste viděli relevantní reklamy, umožňují nám vyhodnocovat výkonnost webových stránek a sledovat, jakým způsobem webové stránky používáte a dosahovat tak větší efektivity webových stránek.
+Tito poskytovatelé služeb mohou osobní údaje z cookies použít pro své vlastní účely podle vlastních zásad zpracování osobních údajů a jsou tak dalšími správci osobních údajů.
+#h4 Odkazy na jiné webové stránky
+Tento web může obsahovat odkazy nebo reference na jiné webové stránky, pro které tyto zásady ochrany soukromí neplatí. Doporučujeme vám seznámit se se zásadami ochrany soukromí na všech webových stránkách, které navštívíte.
+#h4 Jaká máte práva týkající se osobních údajů a používání cookies?
+Klademe důraz na ochranu osobních údajů a respektujeme všechna práva, která vám jako občanům nebo osobám s trvalým pobytem v Evropském hospodářském prostoru náleží podle platných právních předpisů, zejména nařízení GDPR. Máte mimo jiné tato práva:
+- právo na informace – máte právo vědět, proč jsou vaše osobní údaje potřebné, co se s nimi stane a jak dlouho budou uchovány
+- právo na přístup – máte právo na přístup k vašim osobním údajům, které jsou nám známy
+- právo na opravu – máte právo doplnit, opravit, odstranit nebo zablokovat vaše osobní údaje, kdykoli budete chtít
+- právo na odvolání souhlasu – pokud nám udělíte souhlas se zpracováním vašich údajů, máte právo tento souhlas odvolat a požádat o výmaz svých údajů
+- právo na přenos vašich údajů – máte právo vyžádat si od správce všechny vaše osobní údaje a v celém rozsahu je předat jinému správci
+- právo na námitku – máte právo vznést námitku proti zpracování vašich osobních údajů (včetně údajů získaných prostřednictvím cookies), kde v takovém případě vaši námitku posoudíme a zpracování ukončíme, pokud nebudeme mít závažné oprávněné důvody pro jeho další pokračování
+Pro uplatnění těchto práv nás prosím kdykoliv kontaktujte, kde kontaktní údaje najdete ve spodní části těchto Zásad používání souborů cookies – Cookie policy.
+Máte-li jakékoliv výhrady k tomu, jak nakládáme s vašimi osobními údaji, budeme rádi, když nás o tom informujete – uděláme vše pro to, abychom situaci co nejdříve napravili. Máte však také právo podat stížnost u dozorového orgánu, kterým je Úřad pro ochranu osobních údajů ( www.uoou.cz ).
+#h4 Jazykové verze a cookies
+Tyto Zásady používání souborů cookies mohou být dostupné také v jiných jazykových verzích. V případě rozdílů mezi jazykovými verzemi je rozhodující a právně závazná česká verze.
+#h4 Kontaktní údaje – jak se s námi spojit?
+Máte-li jakékoli dotazy nebo připomínky týkající se zpracování osobních údajů nebo používání souborů cookies, neváhejte se obrátit na správce osobních údajů prostřednictvím e-mailu: info@levneopravy.cz
+Tyto Zásady používání souborů Cookies jsou platné a účinné od 1.9.2025

@@ -1,0 +1,86 @@
+========= html/kontakt.html
+Rádi se Vám budeme věnovat.
+Nabízíme pomoc při řešení oprav vašich bytů, domů, penzionů, komerčních či nebytových prostor , a dále nabízíme i ostatní související řemeslné služby, které právě potřebujete.
+#h5 Levné opravy - Praha
+Na Proseku 35/2, Praha 9
+#h5 Pobočka Praha 9
+Třtinová 523/27, Praha 9
+#h5 Pobočka Praha 10
+28. pluku 920/20, Praha 10
+#h5 Levné opravy - Brno
+Jana Babáka 2733/11, Brno
+#h5 Levné opravy - Olomouc
+tř. Kosmonautů 1221/2a, Olomouc
+#h5 Pracovní doba
+PO až PÁ – 8:00 do 18:00
+Pobočky montážního servisu
+#h5 Montážní servis - Beroun
+Plzeňská 475, 267 01 Králův Dvůr u Berouna
+#h5 Montážní servis - Brno
+Sokolova 622/1, 619 00 Brno-jih
+#h5 Montážní servis - Česká Lípa
+Česká Lípa, Borská 3218, 470 01 Česká Lípa 6
+#h5 Montážní servis - Cheb
+Dragounská 2563/4 35002 Cheb, Karlovarský kraj
+#h5 Montážní servis - Frýdek Místek
+Příborská 2410 73801 Frýdek Místek, Moravskoslezský kraj
+#h5 Montážní servis - Havířov
+Před tratí 4/1433 73564 Havířov, Moravskoslezský kraj
+#h5 Montážní servis - Hradec Králové
+Akademika Bedrny 532/10b 50002 Hradec Králové, Královéhradecký kraj
+#h5 Montážní servis - Jihlava
+Romana Havelky 4854/5 58601 Jihlava, Kraj Vysočina
+#h5 Montážní servis - Karlovy Vary
+Chebská 380 / 81 B 36120 Karlovy Vary, Karlovarský kraj
+#h5 Montážní servis - Klatovy
+Domažlická 15 33901 Klatovy, Plzeňský kraj
+#h5 Montážní servis - Kolín
+V kasárnách 1022 28002 Kolín, Středočeský kraj
+#h5 Montážní servis - Litoměřice
+Želetická 2227 41201 Litoměřice, Ústecký kraj
+#h5 Montážní servis - Mladá Boleslav
+Na Radouči 1225 29301 Mladá Boleslav, Středočeský kraj
+#h5 Montážní servis - Most
+Chomutovská 1316 43401 Most, Ústecký kraj
+#h5 Montážní servis - Olomouc
+Horní Lán 2 77900 Olomouc, Olomoucký kraj
+#h5 Montážní servis - Opava
+Hlučínská 51 74705 Opava, Moravskoslezský kraj
+#h5 Montážní servis - Ostrava Zábřeh
+Výškovická 46 / 3123 70030 Ostrava – Zábřeh, Moravskoslezský kraj
+#h5 Montážní servis - Písek
+U Nádraží 2607 39701 Písek, Jihočeský kraj
+#h5 Montážní servis - Praha Modřany
+Lhotecká 446 14300 Praha - Modřany, Hl. město Praha
+#h5 Montážní servis - Praha Prosek
+Prosecká 78 14000 Praha, Hl. město Praha
+#h5 Montážní servis - Praha Roztyly
+Tomíčkova 9 14800 Praha – Roztyly, Hl. město Praha
+#h5 Montážní servis - Praha Ruzyně
+Výtvarná 3/1033 16100 Praha – Ruzyně, Hl. město Praha
+#h5 Montážní servis - Praha Štěrboholy
+Nákupní 390/4 10200 Praha – Štěrboholy, Hl. město Praha
+#h5 Montážní servis - Přerov
+Polní 2992/11 75002 Přerov, Olomoucký kraj
+#h5 Montážní servis - Příbram
+Žežická 596 26101 Příbram, Středočeský kraj
+#h5 Montážní servis - Prostějov
+Konečná 4564/10 79607 Prostějov, Olomoucký kraj
+#h5 Montážní servis - Teplice
+Seifertova 1965 41501 Teplice, Ústecký kraj
+#h5 Montážní servis - Trutnov
+Obchodní 134 54101 Trutnov, Královéhradecký kraj
+#h5 Montážní servis - Zlín-Malenovice
+Centro Zlín 76302 Zlín-Malenovice, Zlínský kraj
+#h5 Montážní servis - Zlín-Malenovice
+Centro Zlín 76302 Zlín-Malenovice, Zlínský kraj
+#h5 Montážní servis - Jablonec nad Nisou
+Želivského 5231/2a 46505 Jablonec nad Nisou, Liberecký kraj
+#h5 Montážní servis - Plzeň Jižní předměstí
+Sukova 886/21 30100 Plzeň – Jižní předměstí, Plzeňský kraj
+#h5 Montážní servis - Ústí nad Labem Trmice
+Tyršova 885 40004 Ústí nad Labem – Trmice, Ústecký kraj
+Napište nám zprávu
+Jsme vždy rádi za jakoukoliv novou spolupráci , proto prosím napište nebo zavolejte .
+Souhlasím se zpracováním osobních údajů .
+Odeslat zprávu

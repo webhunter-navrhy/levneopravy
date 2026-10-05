@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as m with context %}
+{% block main %}
+{{ m.pagehead('Kontakt', 'Rádi se Vám budeme věnovat.', S.intro) }}
+<section class="kontakt">
+  <div class="wrap kontakt__in">
+    <div class="kcards">
+      <a class="kcard kcard--red" href="tel:{{ S.phone_href }}">{{ m.ico('phone') }}<small>Zavolejte nám</small><b>{{ S.phone }}</b></a>
+      <a class="kcard" href="mailto:{{ S.email }}">{{ m.ico('mail') }}<small>Napište nám</small><b>{{ S.email }}</b></a>
+      <div class="kcard">{{ m.ico('clock') }}<small>Pracovní doba</small><b>{{ S.hours }}</b><span>{{ S.hours_weekend }}</span></div>
+    </div>
+    <div class="offices">
+      {% for o in S.offices %}<div class="office reveal" style="--d:{{ loop.index0 * 60 }}ms">{{ m.house() }}<b>{{ o.t }}</b><span>{{ o.a }}</span></div>{% endfor %}
+    </div>
+  </div>
+</section>
+<section class="map map--page">
+  <div class="wrap map__in">
+    <div class="map__txt">
+      {{ m.kicker('Pobočky montážního servisu', true) }}
+      <h2 class="h2">{{ S.area }}</h2>
+      <p>Najeďte na tečku v mapě nebo vyberte město ze seznamu.</p>
+      <ul class="branches">{% for b in S.branches %}<li tabindex="0" data-n="{{ b[0] }}"><b>{{ b[0] }}</b><span>{{ b[1] }}</span></li>{% endfor %}</ul>
+    </div>
+    {% include 'map.html' %}
+  </div>
+</section>
+<section class="contact">
+  <div class="wrap contact__in">
+    <div class="contact__txt">{{ m.kicker('Napište nám zprávu') }}<h2 class="h2">Jsme vždy rádi za jakoukoliv <em>novou spolupráci</em></h2><p>Napište nám, s čím potřebujete pomoct, a my se Vám ozveme.</p>
+    <p class="contact__firm"><b>{{ S.company }}</b><br>{{ S.seat }}<br>IČ: {{ S.ico }}</p></div>
+    {{ m.form() }}
+  </div>
+</section>
+{% endblock %}

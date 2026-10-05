@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as m with context %}
+{% block main %}
+{{ m.pagehead(P.title, P.title) }}
+<section class="sbody"><div class="wrap"><article class="prose prose--legal">{{ m.blocks(P.blocks[1:] if P.blocks and P.blocks[0].t == 'h' else P.blocks) }}</article></div></section>
+{% endblock %}

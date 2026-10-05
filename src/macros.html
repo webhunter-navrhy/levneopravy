@@ -1,0 +1,93 @@
+{% macro ico(n) -%}
+{%- if n == 'phone' -%}<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+{%- elif n == 'mail' -%}<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 6.5 12 13l8.5-6.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+{%- elif n == 'pin' -%}<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+{%- elif n == 'clock' -%}<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+{%- elif n == 'check' -%}<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.2 4.2L19 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+{%- elif n == 'arrow' -%}<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+{%- elif n == 'cr' -%}<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9l4-3 3 1 3-2 4 2 4 3-2 4-4 2-3 3-4-2-3-2z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="10" cy="10" r="1.6" fill="currentColor"/></svg>
+{%- elif n == 'obi' -%}<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10l8-6 8 6v10H4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 20v-6h6v6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+{%- elif n == 'cena' -%}<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12V4h8l10 10-8 8z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="7.5" cy="8.5" r="1.6" fill="currentColor"/></svg>
+{%- elif n == 'cert' -%}<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3 8.5-7 10-4-1.5-7-5-7-10V6z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.5 12l2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+{%- endif -%}
+{%- endmacro %}
+
+{% macro house() -%}<svg class="house" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 0 40 14v30H0V14z" fill="currentColor"/><text x="20" y="36" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="26" fill="#fff">&amp;</text></svg>{%- endmacro %}
+
+{% macro kicker(t, light=false) -%}<p class="kicker{{ ' kicker--light' if light }}"><span class="kicker__h"></span>{{ t }}</p>{%- endmacro %}
+
+{% macro svc_card(s, big=false) -%}
+<a class="card{{ ' card--big' if big }}" href="{{ L(s.path) }}" data-group="{{ s.group }}">
+  <span class="card__img"><img src="{{ R }}{{ s.cover.src }}" width="{{ s.cover.w }}" height="{{ s.cover.h }}" alt="{{ s.title }}" loading="lazy"></span>
+  <span class="card__body">
+    <span class="card__t">{{ s.short_title }}</span>
+    <span class="card__d">{{ s.short }}</span>
+  </span>
+  <span class="card__go">{{ ico('arrow') }}</span>
+</a>
+{%- endmacro %}
+
+{% macro form(sel='') -%}
+<form class="form" data-demo novalidate>
+  <p class="form__demo">Ukázka – formulář v návrhu zatím nic neodesílá</p>
+  <div class="form__row">
+    <label><span>Jméno a příjmení</span><input name="jmeno" autocomplete="name" required></label>
+    <label><span>Telefon</span><input name="telefon" type="tel" autocomplete="tel"></label>
+  </div>
+  <div class="form__row">
+    <label><span>E-mail</span><input name="email" type="email" autocomplete="email" required></label>
+    <label><span>Služba</span>
+      <select name="sluzba">
+        <option value="">Vyberte službu…</option>
+        {% for s in SV %}<option value="{{ s.slug }}"{{ ' selected' if s.slug == sel }}>{{ s.title }}</option>{% endfor %}
+        <option value="jine">Něco jiného</option>
+      </select>
+    </label>
+  </div>
+  <label><span>Místo realizace</span><input name="misto" placeholder="Obec nebo městská část"></label>
+  <label><span>S čím potřebujete pomoct?</span><textarea name="zprava" rows="4" required placeholder="Popište prosím, co je potřeba opravit nebo namontovat."></textarea></label>
+  <label class="form__ok"><input type="checkbox" required> <span>Souhlasím se zpracováním <a href="{{ L('/gdpr/') }}">osobních údajů</a>.</span></label>
+  <button class="btn btn--red" type="submit">Odeslat zprávu {{ ico('arrow') }}</button>
+  <p class="form__msg" role="status" hidden>Děkujeme! Tohle je jen ukázka v návrhu – na hotovém webu zpráva dorazí rovnou na {{ S.email }}.</p>
+</form>
+{%- endmacro %}
+
+{% macro blocks(bl) -%}
+{% for b in bl %}
+  {% if b.t == 'p' %}<p>{{ b.h|safe }}</p>
+  {% elif b.t == 'h' %}<h2>{{ b.h }}</h2>
+  {% elif b.t == 'sub' %}<h3>{{ b.h }}</h3>
+  {% elif b.t == 'ul' and b.rich %}
+    <div class="feat">{% for it in b['items'] %}<div class="feat__i">{% if it.t %}<h4>{{ it.t }}</h4>{% endif %}<p>{{ it.d|safe }}</p></div>{% endfor %}</div>
+  {% elif b.t == 'ul' %}
+    <ul class="ticks">{% for it in b['items'] %}<li>{{ ico('check') }}<span>{{ it|safe }}</span></li>{% endfor %}</ul>
+  {% endif %}
+{% endfor %}
+{%- endmacro %}
+
+{% macro cta(title='Rádi se Vám budeme věnovat.') -%}
+<section class="cta">
+  <div class="wrap cta__in">
+    <div>
+      {{ kicker('Kontaktujte nás', true) }}
+      <h2 class="cta__h">{{ title }}</h2>
+      <p>{{ S.slogan }} {{ S.area }}.</p>
+    </div>
+    <div class="cta__acts">
+      <a class="cta__big" href="tel:{{ S.phone_href }}"><small>Zavolejte nám</small>{{ S.phone }}</a>
+      <a class="cta__big" href="mailto:{{ S.email }}"><small>Napište nám</small>{{ S.email }}</a>
+      <a class="btn btn--white" href="{{ L('/poptavka/') }}">Poptávka služeb {{ ico('arrow') }}</a>
+    </div>
+  </div>
+</section>
+{%- endmacro %}
+
+{% macro pagehead(kick, h1, lead='', crumbs=[]) -%}
+<section class="phead">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Drobečková navigace"><a href="{{ L('/') }}">Domů</a>{% for c in crumbs %}<span>/</span><a href="{{ L(c[1]) }}">{{ c[0] }}</a>{% endfor %}<span>/</span><b>{{ kick }}</b></nav>
+    <h1 class="phead__h">{{ h1 }}</h1>
+    {% if lead %}<p class="phead__lead">{{ lead }}</p>{% endif %}
+  </div>
+</section>
+{%- endmacro %}

@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as m with context %}
+{% block main %}
+{{ m.pagehead('Ceník', 'Jaké máme ceny? Velmi nízké!', 'Naše práce jsou velmi rozmanité, a proto Vám cenovou kalkulaci rádi upřesníme na základě Vašich konkrétních požadavků.') }}
+<section class="pricing">
+  <div class="wrap">
+    <div class="ptable">
+      {% for p in S.pricing['items'] %}
+      <div class="prow{{ ' prow--hl' if p.hl }} reveal" style="--d:{{ loop.index0 * 60 }}ms">
+        <div class="prow__t"><b>{{ p.t }}</b>{% if p.n %}<span>{{ p.n }}</span>{% endif %}</div>
+        <div class="prow__dots"></div>
+        <div class="prow__p">{{ p.p }}</div>
+        {% if p.link %}<a class="prow__a" href="{{ L(p.link) }}" aria-label="Detail: {{ p.t }}">{{ m.ico('arrow') }}</a>{% else %}<span class="prow__a"></span>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    <ul class="pnotes">{% for n in S.pricing.notes %}<li>{{ n }}</li>{% endfor %}<li>pracovní doba {{ S.hours }}, víkend dle dohody</li></ul>
+    <div class="pinfo">
+      <div><h3>Cenová nabídka</h3><p>Výjezd technika na zaměření a vypracování cenové nabídky stojí 500 Kč. Odhad ceny Vám sdělíme předem – jednáme fér.</p></div>
+      <a class="btn btn--red" href="{{ L('/poptavka/') }}">Chci cenovou nabídku {{ m.ico('arrow') }}</a>
+    </div>
+  </div>
+</section>
+<section class="area"><div class="wrap area__in"><h2>Oblast působení</h2><p>Spolehlivě provádíme levné opravy pro domy, byty, penziony, průmyslové objekty, komerční a nebytové prostory. {{ S.area }}.</p></div></section>
+{{ m.cta() }}
+{% endblock %}

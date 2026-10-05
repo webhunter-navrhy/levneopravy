@@ -1,0 +1,197 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as m with context %}
+{% block bodyclass %}home{% endblock %}
+{% block main %}
+<section class="hero">
+  <div class="wrap hero__in">
+    <div class="hero__txt">
+      <p class="hero__eyebrow"><span>levné</span> OPRAVY {{ m.house() }} <span>montážní</span> SERVIS</p>
+      <h1 class="hero__h" data-split>Spolehliví řemeslníci pro&nbsp;byt, dům i&nbsp;firmu</h1>
+      <p class="hero__lead">Kompletní řemeslné práce – instalatér, topenář, truhlář, zedník, obkladač a další. Všechny tyto práce poskytujeme po celé České republice.</p>
+      <div class="finder" data-finder>
+        <label for="finder-q" class="finder__l">Co potřebujete opravit nebo namontovat?</label>
+        <div class="finder__box">
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <input id="finder-q" type="search" placeholder="např. dveře, koupelna, kuchyň, elektrika…" autocomplete="off" aria-controls="finder-res">
+        </div>
+        <ul class="finder__res" id="finder-res" role="listbox" hidden></ul>
+      </div>
+      <div class="hero__acts">
+        <a class="btn btn--red" href="{{ L('/poptavka/') }}">Nezávazná poptávka {{ m.ico('arrow') }}</a>
+        <a class="btn btn--ghost" href="tel:{{ S.phone_href }}">{{ m.ico('phone') }} {{ S.phone }}</a>
+      </div>
+    </div>
+    <div class="hero__vis">
+      <div class="hero__photo"><img src="{{ M['levne-opravy-title'].src }}" width="{{ M['levne-opravy-title'].w }}" height="{{ M['levne-opravy-title'].h }}" alt="Řemeslník Levné opravy v dílně" fetchpriority="high"></div>
+      <a class="deal" href="{{ L('/sluzba/akce/') }}">
+        <span class="deal__tag">Akce</span>
+        <span class="deal__t">Výměna vchodových či bytových dveří</span>
+        <span class="deal__p">10 990 Kč</span>
+        <span class="deal__n">celkem za dopravu, materiál i práci</span>
+        <img class="deal__obi" src="{{ M['obi-logo'].src }}" alt="OBI" width="80" height="20">
+      </a>
+    </div>
+  </div>
+  <a class="scrollhint" href="#sluzby" aria-label="Pokračovat na služby"><span></span></a>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    {% for r in range(2) %}{% for t in S.marquee %}<span>{{ t }}</span>{{ m.house() }}{% endfor %}{% endfor %}
+  </div>
+</div>
+
+<section class="perks">
+  <div class="wrap perks__grid">
+    {% for p in S.perks %}
+    <div class="perk reveal" style="--d:{{ loop.index0 * 80 }}ms">
+      <span class="perk__i">{{ m.ico(p.k) }}</span>
+      <h3>{{ p.t }}</h3>
+      <p>{{ p.d }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="svc" id="sluzby">
+  <div class="wrap">
+    <div class="svc__head">
+      <div>
+        {{ m.kicker('Přehled našich služeb') }}
+        <h2 class="h2">S čím pomůžeme Vám?</h2>
+      </div>
+      <p class="svc__intro">{{ S.intro }}</p>
+    </div>
+    <div class="chips" role="tablist" aria-label="Filtrovat služby">
+      {% for k, t in S.groups %}<button class="chip{{ ' is-on' if loop.first }}" data-filter="{{ k }}" role="tab" aria-selected="{{ 'true' if loop.first else 'false' }}">{{ t }}</button>{% endfor %}
+    </div>
+    <div class="grid" data-grid>
+      {% for s in SV if s.slug != 'akce' %}{{ m.svc_card(s, loop.first) }}{% endfor %}
+      <a class="card card--cta" href="{{ L('/sluzba/akce/') }}"><small>Akce s OBI</small><b>Výměna dveří bez bourání</b><span class="card__p">10 990 Kč</span><span>celkem za dopravu, materiál i práci</span><span class="card__go">{{ m.ico('arrow') }}</span></a>
+      <a class="card card--cta card--red" href="{{ L('/poptavka/') }}"><small>Nenašli jste službu?</small><b>Napište nám, s čím potřebujete pomoct</b><span>Nabízíme i ostatní související řemeslné služby.</span><span class="card__go">{{ m.ico('arrow') }}</span></a>
+    </div>
+    <div class="svc__more">
+      <a class="btn btn--line" href="{{ L('/nase-sluzby/') }}">Naše služby {{ m.ico('arrow') }}</a>
+      <a class="btn btn--line" href="{{ L('/dalsi-sluzby/') }}">Další služby {{ m.ico('arrow') }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="akce">
+  <div class="wrap akce__in">
+    <div class="akce__txt reveal">
+      {{ m.kicker('Akce ve spolupráci s OBI', true) }}
+      <h2 class="h2">Výměna vchodových či bytových dveří <em>bez bourání</em></h2>
+      <p>Zaručíme Vám kvalitní provedení výměny dveří, služeb a dalších souvisejících prací. Původní dveře demontujeme, upravíme stavební otvory a veškerý odpad zlikvidujeme.</p>
+      <ul class="akce__list">
+        {% for it in BY['akce'].blocks[-1]['items'] %}<li>{{ m.ico('check') }} {{ it }}</li>{% endfor %}
+      </ul>
+    </div>
+    <div class="akce__price reveal" style="--d:120ms">
+      <div class="price">
+        <span class="price__l">Cena celkem</span>
+        <span class="price__v" data-count="10990">10 990</span><span class="price__c">Kč</span>
+        <span class="price__n">za dopravu, materiál i práci</span>
+      </div>
+      <div class="akce__prods">
+        {% for g in BY['akce'].gallery[:6] %}<span><img src="{{ g.src }}" alt="" loading="lazy" width="{{ g.w }}" height="{{ g.h }}"></span>{% endfor %}
+      </div>
+      <a class="btn btn--red" href="{{ L('/sluzba/akce/') }}">Více informací o akci {{ m.ico('arrow') }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="about">
+  <div class="wrap about__in">
+    <div class="about__media reveal">
+      <img class="about__a" src="{{ M['firemni-auto-levne-opravy'].src }}" alt="Firemní auto Levné opravy" loading="lazy" width="{{ M['firemni-auto-levne-opravy'].w }}" height="{{ M['firemni-auto-levne-opravy'].h }}">
+      <img class="about__b" src="{{ M['rekonstrukce_bytoveho_jadra1'].src }}" alt="Rekonstrukce bytového jádra – realizace" loading="lazy" width="{{ M['rekonstrukce_bytoveho_jadra1'].w }}" height="{{ M['rekonstrukce_bytoveho_jadra1'].h }}">
+      <span class="about__stamp">{{ m.house() }}</span>
+    </div>
+    <div class="about__txt">
+      {{ m.kicker('O nás') }}
+      <h2 class="h2">Potřebujete a hledáte <em>poctivého řemeslníka?</em></h2>
+      <p class="about__lead">{{ S.intro }}</p>
+      <p>{{ S.slogan }} {{ S.intro2 }}</p>
+      <ul class="cando">
+        {% for c in S.can_do %}<li>{{ m.ico('check') }}<span>{{ c }}</span></li>{% endfor %}
+      </ul>
+      <a class="btn btn--line" href="{{ L('/o-nas/') }}">Více o nás {{ m.ico('arrow') }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="map">
+  <div class="wrap map__in">
+    <div class="map__txt">
+      {{ m.kicker('Oblast působení', true) }}
+      <h2 class="h2">Působíme po celé České republice</h2>
+      <p>Spolehlivě provádíme levné opravy pro domy, byty, penziony, průmyslové objekty, komerční a nebytové prostory. Naše hlavní lokality jsou <strong>Praha, Brno a Olomouc</strong>, pobočky montážního servisu najdete po celé republice.</p>
+      <ul class="map__offices">
+        {% for o in S.offices %}<li><b>{{ o.t }}</b><span>{{ o.a }}</span></li>{% endfor %}
+      </ul>
+      <a class="btn btn--white" href="{{ L('/kontakt/') }}">Všechny pobočky {{ m.ico('arrow') }}</a>
+    </div>
+    {% include 'map.html' %}
+  </div>
+</section>
+
+<section class="refs">
+  <div class="wrap">
+    <div class="svc__head">
+      <div>{{ m.kicker('Reference') }}<h2 class="h2">Z naší práce</h2></div>
+      <p class="svc__intro">Vašeho soukromí si ceníme, proto nezveřejňujeme jména našich zákazníků – uvádíme pouze základní přehled realizací.</p>
+    </div>
+    <div class="bento">
+      {% for i in [0, 4, 2, 16, 3, 8, 23] %}{% set g = M.reference[i] %}
+      <a class="bento__i reveal" style="--d:{{ loop.index0 * 60 }}ms" href="{{ L('/reference/') }}"><img src="{{ g.src }}" alt="Realizace Levné opravy" loading="lazy" width="{{ g.w }}" height="{{ g.h }}"></a>
+      {% endfor %}
+    </div>
+    <ul class="reftick" aria-label="Vybrané realizace">
+      {% for r in S.references[:10] %}<li><b>{{ r[0] }}</b> <span>{{ r[1] }}</span></li>{% endfor %}
+    </ul>
+    <div class="svc__more"><a class="btn btn--line" href="{{ L('/reference/') }}">Všechny reference {{ m.ico('arrow') }}</a></div>
+  </div>
+</section>
+
+<section class="quotes">
+  <div class="wrap">
+    {{ m.kicker('Recenze klientů') }}
+    <h2 class="h2">Staňte se jedním z nich</h2>
+    <div class="quotes__grid">
+      {% for r in S.reviews %}
+      <figure class="quote reveal" style="--d:{{ loop.index0 * 100 }}ms">
+        <span class="quote__mark">“</span>
+        <blockquote>{{ r.q }}</blockquote>
+        <figcaption><span class="quote__av">{{ r.n[0] }}</span><b>{{ r.n }}</b><span>{{ r.c }}</span></figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="partners">
+  <div class="wrap partners__in">
+    <p>Naši partneři</p>
+    <div class="partners__logos">
+      {% for k, n in S.partners %}<img src="{{ M[k].src }}" alt="{{ n }}" loading="lazy" width="{{ M[k].w }}" height="{{ M[k].h }}">{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="poptavka">
+  <div class="wrap contact__in">
+    <div class="contact__txt">
+      {{ m.kicker('Napište nám zprávu') }}
+      <h2 class="h2">Jsme vždy rádi za jakoukoliv <em>novou spolupráci</em></h2>
+      <p>Napište nám nebo zavolejte. Naše práce jsou velmi rozmanité, a proto Vám cenovou kalkulaci rádi upřesníme na základě Vašich konkrétních požadavků.</p>
+      <div class="contact__list">
+        <a href="tel:{{ S.phone_href }}">{{ m.ico('phone') }}<span><small>Zavolejte nám</small>{{ S.phone }}</span></a>
+        <a href="mailto:{{ S.email }}">{{ m.ico('mail') }}<span><small>Napište nám</small>{{ S.email }}</span></a>
+        <div>{{ m.ico('clock') }}<span><small>Pracovní doba</small>{{ S.hours }}, {{ S.hours_weekend|lower }}</span></div>
+      </div>
+    </div>
+    {{ m.form() }}
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,214 @@
+{
+ "levne-opravy-title": {
+  "src": "img/levne-opravy-title.webp",
+  "w": 2000,
+  "h": 1335
+ },
+ "firemni-auto-levne-opravy": {
+  "src": "img/firemni-auto-levne-opravy.webp",
+  "w": 600,
+  "h": 400
+ },
+ "kontakty": {
+  "src": "img/kontakty.webp",
+  "w": 1400,
+  "h": 933
+ },
+ "slide1": {
+  "src": "img/slide1.webp",
+  "w": 1600,
+  "h": 1066
+ },
+ "slide2": {
+  "src": "img/slide2.webp",
+  "w": 1600,
+  "h": 1066
+ },
+ "slide3": {
+  "src": "img/slide3.webp",
+  "w": 1600,
+  "h": 1066
+ },
+ "kuchyne_na_miru": {
+  "src": "img/kuchyne_na_miru.webp",
+  "w": 1000,
+  "h": 649
+ },
+ "rekonstrukce_bytoveho_jadra1": {
+  "src": "img/rekonstrukce_bytoveho_jadra1.webp",
+  "w": 1000,
+  "h": 666
+ },
+ "logo-opravy": {
+  "src": "img/logo-opravy.webp",
+  "w": 295,
+  "h": 65
+ },
+ "logo-opravy-white": {
+  "src": "img/logo-opravy-white.webp",
+  "w": 295,
+  "h": 65
+ },
+ "logo-ikona": {
+  "src": "img/logo-ikona.webp",
+  "w": 400,
+  "h": 400
+ },
+ "obi_partner": {
+  "src": "img/obi_partner.webp",
+  "w": 301,
+  "h": 89
+ },
+ "rsd_partner": {
+  "src": "img/rsd_partner.webp",
+  "w": 301,
+  "h": 89
+ },
+ "letiste_partner": {
+  "src": "img/letiste_partner.webp",
+  "w": 301,
+  "h": 89
+ },
+ "benzina_partner": {
+  "src": "img/benzina_partner.webp",
+  "w": 301,
+  "h": 89
+ },
+ "prodoma_partner": {
+  "src": "img/prodoma_partner.webp",
+  "w": 301,
+  "h": 89
+ },
+ "obi-logo": {
+  "src": "img/obi-logo.webp",
+  "w": 500,
+  "h": 124
+ },
+ "obi_partner-akce-e1782287303359": {
+  "src": "img/obi_partner-akce-e1782287303359.webp",
+  "w": 270,
+  "h": 68
+ },
+ "reference": [
+  {
+   "src": "img/rekonstrukce_bytoveho_jadra1.webp",
+   "w": 1000,
+   "h": 666
+  },
+  {
+   "src": "img/zahradni_domky.webp",
+   "w": 986,
+   "h": 740
+  },
+  {
+   "src": "img/schodite_tocene_kovar.webp",
+   "w": 600,
+   "h": 800
+  },
+  {
+   "src": "img/zabradli-zdobne-s-patinou.webp",
+   "w": 1000,
+   "h": 750
+  },
+  {
+   "src": "img/kuchyne_na_miru.webp",
+   "w": 1000,
+   "h": 649
+  },
+  {
+   "src": "img/zahradni_domek.webp",
+   "w": 985,
+   "h": 740
+  },
+  {
+   "src": "img/branka-s-vyplni-tahokov.webp",
+   "w": 1000,
+   "h": 750
+  },
+  {
+   "src": "img/vystavba_domu.webp",
+   "w": 1000,
+   "h": 561
+  },
+  {
+   "src": "img/oprava_domu.webp",
+   "w": 1000,
+   "h": 561
+  },
+  {
+   "src": "img/firemni-auto-levne-opravy.webp",
+   "w": 600,
+   "h": 400
+  },
+  {
+   "src": "img/dvoukridla-brana-repy.webp",
+   "w": 1000,
+   "h": 750
+  },
+  {
+   "src": "img/zabadli_zdobene.webp",
+   "w": 1000,
+   "h": 750
+  },
+  {
+   "src": "img/mrize_brna_zabradli.webp",
+   "w": 1000,
+   "h": 750
+  },
+  {
+   "src": "img/zabradli-derovane-na-balkony.webp",
+   "w": 600,
+   "h": 800
+  },
+  {
+   "src": "img/dvoukridla-branka-plechy.webp",
+   "w": 1000,
+   "h": 750
+  },
+  {
+   "src": "img/pojezdova-brana-kovane-oploceni.webp",
+   "w": 1000,
+   "h": 750
+  },
+  {
+   "src": "img/montovanydum2.webp",
+   "w": 986,
+   "h": 740
+  },
+  {
+   "src": "img/litinove-zabradli-zdobne.webp",
+   "w": 1000,
+   "h": 750
+  },
+  {
+   "src": "img/samonosna-brana-zdobna-s-patinou.webp",
+   "w": 1000,
+   "h": 750
+  },
+  {
+   "src": "img/oploceni-plny-plech.webp",
+   "w": 1000,
+   "h": 750
+  },
+  {
+   "src": "img/samonosna-zdobna-brana.webp",
+   "w": 1000,
+   "h": 750
+  },
+  {
+   "src": "img/stavba_domu.webp",
+   "w": 1000,
+   "h": 561
+  },
+  {
+   "src": "img/zabradli_kvalitni.webp",
+   "w": 1000,
+   "h": 667
+  },
+  {
+   "src": "img/kovany-plot-s-listy.webp",
+   "w": 1000,
+   "h": 750
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+========= html/pravni-ujednani.html
+#h3 Právní ujednání – Legal Disclaimer
+Webové stránky provozované naší společností pod subjektem Levné opravy – Praha , se sídlem: Na Proseku 35/2, Praha 9 , IČ: 872 94 231 , slouží pro informační účely a prezentaci nabízených služeb nebo produktů.
+#h4 Omezení odpovědnosti
+Informace uvedené na těchto stránkách mají pouze obecný informativní charakter a nejsou právně závazné. Provozovatel si vyhrazuje právo kdykoli změnit či upravit jejich obsah bez předchozího upozornění.
+Provozovatel se přiměřeně snaží zajistit, aby informace uvedené na webu byly aktuální a přesné, nicméně neposkytuje žádné záruky ohledně jejich správnosti, aktuálnosti nebo úplnosti. Za obsah webových stránek třetích stran, na které může tento web odkazovat, nenese provozovatel odpovědnost .
+Obsah těchto stránek nepředstavuje právní úkon ani veřejnou nabídku ve smyslu občanského zákoníku, ledaže je výslovně uvedeno jinak.
+#h4 Zásah vyšší moci
+Provozovatel www stránek nenese odpovědnost za zpoždění nebo přerušení funkčnosti těchto stránek z důvodů tzv. vyšší moci, mimo jiné včetně požárů, záplav, přírodních katastrof, výpadků telekomunikačních sítí, útoků hackerů, šíření škodlivého softwaru, výpadků napájení, závad na hardwaru či softwaru, státního zásahu nebo jiných mimořádných událostí. Nic z výše uvedeného nezakládá nárok na náhradu škody ani nevytváří jakoukoli implicitní záruku.
+#h4 Prohlášení o přístupnosti
+Provozovatel těchto webových stránek prohlašuje, že se snaží zajistit přístupnost obsahu i všech funkcionalit webu pro všechny uživatele internetu, včetně osob se zdravotním znevýhodněním.
+#h4 Chování uživatelů
+Uživatelé těchto stránek nesmí jakýmkoli způsobem zasahovat do jejich bezpečnosti, narušovat jejich provoz, přenášet škodlivé kódy nebo se pokoušet o neoprávněný přístup do neveřejných částí webu. Uživatel je zároveň povinen respektovat autorská práva k obsahu těchto stránek.
+#h4 Autorská práva
+Autorská práva k veškerému obsahu, včetně textů, obrázků a grafiky, jsou chráněna dle platných právních předpisů. Jakékoli kopírování nebo šíření obsahu bez předchozího souhlasu provozovatele je striktně zakázáno.
+Právní informace a ujednání jsou platné a účinné od 1.9.2025

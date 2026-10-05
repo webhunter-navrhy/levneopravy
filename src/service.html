@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as m with context %}
+{% block main %}
+<section class="shero">
+  <div class="wrap shero__in">
+    <div class="shero__txt">
+      <nav class="crumbs" aria-label="Drobečková navigace"><a href="{{ L('/') }}">Domů</a><span>/</span>{% if s.menu == 'main' %}<a href="{{ L('/nase-sluzby/') }}">Naše služby</a><span>/</span>{% elif s.menu == 'other' %}<a href="{{ L('/dalsi-sluzby/') }}">Další služby</a><span>/</span>{% endif %}<b>{{ s.title }}</b></nav>
+      <h1 class="shero__h" data-split>{{ s.title }}</h1>
+      <p class="shero__lead">{{ s.lead }}</p>
+      <div class="hero__acts">
+        <a class="btn btn--red" href="{{ L('/poptavka/') }}?sluzba={{ s.slug }}">Poptat {{ 'akci' if s.slug == 'akce' else 'tuto službu' }} {{ m.ico('arrow') }}</a>
+        <a class="btn btn--ghost" href="tel:{{ S.phone_href }}">{{ m.ico('phone') }} {{ S.phone }}</a>
+      </div>
+    </div>
+    <div class="shero__img"><img src="{{ R }}{{ s.cover.src }}" width="{{ s.cover.w }}" height="{{ s.cover.h }}" alt="{{ s.title }}" fetchpriority="high"></div>
+  </div>
+</section>
+
+<section class="sbody">
+  <div class="wrap sbody__in">
+    <article class="prose">
+      {% if s.slug == 'akce' %}
+      <div class="price price--inline"><span class="price__l">Uvedená cena</span><span class="price__v">10 990</span><span class="price__c">Kč</span><span class="price__n">je celkem za dopravu, materiál i práci</span></div>
+      {% endif %}
+      {{ m.blocks(s.blocks) }}
+      {% if s.gallery %}
+      <div class="sgal{{ ' sgal--prod' if s.slug == 'akce' }}">
+        {% for g in s.gallery %}<a href="{{ R }}{{ g.src }}" data-lb><img src="{{ R }}{{ g.src }}" alt="{{ s.title }} – ukázka" loading="lazy" width="{{ g.w }}" height="{{ g.h }}"></a>{% endfor %}
+      </div>
+      {% endif %}
+    </article>
+    <aside class="side">
+      <div class="side__card">
+        <p class="side__k">Pojďme spolupracovat</p>
+        <a class="side__tel" href="tel:{{ S.phone_href }}">{{ m.ico('phone') }} {{ S.phone }}</a>
+        <a class="side__row" href="mailto:{{ S.email }}">{{ m.ico('mail') }} {{ S.email }}</a>
+        <span class="side__row">{{ m.ico('clock') }} {{ S.hours }}</span>
+        <span class="side__row">{{ m.ico('pin') }} {{ S.area }}</span>
+        <a class="btn btn--red btn--block" href="{{ L('/poptavka/') }}?sluzba={{ s.slug }}">Poptávka služeb</a>
+      </div>
+      <div class="side__obi">
+        <img src="{{ R }}{{ M['obi-logo'].src }}" alt="OBI" width="120" height="30" loading="lazy">
+        <p><b>Partner prodejen OBI.</b> Doprovázíme Vás při realizacích i výběru vhodných materiálů.</p>
+      </div>
+      <nav class="side__nav" aria-label="Další služby">
+        <p class="side__k">{{ 'Naše služby' if s.menu != 'other' else 'Další služby' }}</p>
+        {% for x in (OTHER if s.menu == 'other' else MAIN) %}<a href="{{ L(x.path) }}"{{ ' aria-current="page"' if x.slug == s.slug }}>{{ x.short_title }}</a>{% endfor %}
+      </nav>
+    </aside>
+  </div>
+</section>
+
+<section class="area">
+  <div class="wrap area__in">
+    <h2>Oblast působení</h2>
+    <p>Spolehlivě provádíme levné opravy pro domy, byty, penziony, průmyslové objekty, komerční a nebytové prostory. {{ S.area }}.</p>
+  </div>
+</section>
+
+<section class="related">
+  <div class="wrap">
+    {{ m.kicker('Mohlo by se hodit') }}
+    <h2 class="h2">Související služby</h2>
+    <div class="grid grid--4">{% for x in rel %}{{ m.svc_card(x) }}{% endfor %}</div>
+  </div>
+</section>
+{{ m.cta() }}
+{% endblock %}

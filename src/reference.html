@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as m with context %}
+{% block main %}
+{{ m.pagehead('Reference', 'Vašeho soukromí si ceníme', 'Proto nezveřejňujeme jména našich zákazníků – uvádíme pouze základní přehled. Na osobní schůzce o našich referencích zjistíte více.') }}
+<section class="reflist">
+  <div class="wrap reflist__in">
+    <ol class="rl">
+      {% for r in S.references %}<li class="reveal" style="--d:{{ (loop.index0 % 6) * 40 }}ms"><span class="rl__n">{{ '%02d' % loop.index }}</span><b>{{ r[0] }}</b><span class="rl__loc">{{ m.ico('pin') }} {{ r[1] }}</span></li>{% endfor %}
+    </ol>
+  </div>
+</section>
+<section class="refgal">
+  <div class="wrap">
+    {{ m.kicker('Fotografie realizací') }}
+    <h2 class="h2">Z naší práce</h2>
+    <div class="masonry">
+      {% for g in M.reference %}<a href="{{ R }}{{ g.src }}" data-lb class="reveal" style="--d:{{ (loop.index0 % 4) * 50 }}ms"><img src="{{ R }}{{ g.src }}" alt="Realizace Levné opravy" loading="lazy" width="{{ g.w }}" height="{{ g.h }}"></a>{% endfor %}
+    </div>
+  </div>
+</section>
+<section class="quotes">
+  <div class="wrap">
+    {{ m.kicker('Recenze klientů') }}
+    <h2 class="h2">Co o nás říkají</h2>
+    <div class="quotes__grid">
+      {% for r in S.reviews %}<figure class="quote"><span class="quote__mark">“</span><blockquote>{{ r.q }}</blockquote><figcaption><span class="quote__av">{{ r.n[0] }}</span><b>{{ r.n }}</b><span>{{ r.c }}</span></figcaption></figure>{% endfor %}
+    </div>
+  </div>
+</section>
+{{ m.cta() }}
+{% endblock %}
